@@ -9,7 +9,7 @@ complexity = 2
     
     
 # Build the model.
-text_model = markovify.Text(text, state_size = Compexity)
+text_model = markovify.Text(text, state_size = complexity)
 f.close()
 
 for i in range(5):
